@@ -1,17 +1,11 @@
-/* Accessible link styling */
 a {
-    text-decoration: underline;
-    color: #0000EE; /* Unvisited link color (blue) */
+    text-decoration: underline !important;
+    color: #0000EE !important;
 }
 
 a:visited {
-    color: #551A8B; /* Visited link color (purple) */
+    color: #551A8B !important;
 }
 
 a:hover, a:focus {
-    text-decoration: underline; /* Ensure underline remains on hover and focus */
-}
-
-a:active {
-    color: #FF0000; /* Active link color (red) */
-}
+    text-decoration: underline !important;
